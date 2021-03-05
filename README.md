@@ -16,6 +16,10 @@ During the process, a classifier from sklearn library was used in order to fit t
 
 After that, the model reported the following values: Training Data Score: 0.92, Testing Data Score: 0.88 meaning the information is highly reliable.
 
+![LM](Resources/images/Capture1.PNG)
+
 The other models (Tree and SVM) do not show reliable results as the Logistical Regression, this could be result of using several columns in the X variable that do not provide enough information for the model to work properly.
+
+![Tree](Resources/images/Capture2.PNG)
 
 In my conclusion, I learned that the usage of several ML models is necesary in order to identify the most appropiate for out datasets, apart from selecting the correct information as input. Not only the selection of the model is important, but the interpretation of the results becomes crucial to determine its success.  
